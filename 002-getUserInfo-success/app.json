@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/test/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f50",
+    "navigationBarTitleText": "getUserinfo test success",
+    "navigationBarTextStyle": "#fff"
+  }
+}
