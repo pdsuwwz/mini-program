@@ -1,0 +1,26 @@
+page{
+  background-color: #000;
+  padding-top: 50rpx;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100rpx;
+}
+.username{
+  color: #fff;
+  padding: 200rpx 0;
+  text-align: center;
+}
+.start{
+  color: #fff;
+  border: 1rpx solid #fff;
+  margin-top: 50rpx;
+  padding: 20rpx 30rpx;
+}

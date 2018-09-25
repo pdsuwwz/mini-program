@@ -1,0 +1,7 @@
+<view class="container">
+  <view wx:if="{{loading}}">
+    <image bind:touchstart="touchstart" class="header" src="/images/header.jpg"/>
+    <view class="username">Hello {{name}}</view>
+  </view>
+  <text class="start" bindtap="getUserinfo" >获取授权</text>
+</view>
