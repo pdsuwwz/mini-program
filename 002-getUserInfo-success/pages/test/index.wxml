@@ -1,0 +1,7 @@
+<view class="container">
+  <view wx:if="{{loading}}">
+    <image bind:touchstart="touchstart" class="header" src="{{userData.avatarUrl}}"/>
+    <view class="username">Hello {{userData.nickName}}</view>
+  </view>
+  <button wx:if="{{showGetUser}}" class="start" open-type="getUserInfo" bindgetuserinfo="getUserInfo" >获取授权</button>
+</view>
